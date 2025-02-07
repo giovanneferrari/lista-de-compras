@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Projeto - Lista de Compras</title>
+</head>
+<body>
+    <main>
+        <header>
+            <img src="./assets/logo.svg" alt="">
+        </header>
+        <div class="title">
+            <div class="back-button">
+                <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.0206 10.1839L0.382102 5.54545L5.0206 0.90696L5.91548 1.7919L2.80824 4.89915H10.6136V6.19176H2.80824L5.91548 9.29403L5.0206 10.1839Z" fill="#CA3884"/>
+                </svg>
+                <p>Voltar</p>
+            </div>
+            <h2>Compras da semana</h2>
+        </div>
+        <section>
+            <form action="">
+                <input type="text" placeholder="Adicione um novo item">
+                <button type="submit">Adicionar item</button>
+            </form>
+            <div class="list">
+                <div class="item-list">
+                    <div class="item-list-info">
+                        <input type="checkbox" name="item" id="item-check">
+                        <p>Pão de forma</p>
+                    </div>
+                    <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13 4.16666L12.5869 10.8501C12.4813 12.5576 12.4285 13.4114 12.0005 14.0253C11.7889 14.3287 11.5165 14.5849 11.2005 14.7773C10.5614 15.1667 9.706 15.1667 7.99513 15.1667C6.28208 15.1667 5.42553 15.1667 4.78603 14.7766C4.46987 14.5838 4.19733 14.3272 3.98579 14.0232C3.55792 13.4084 3.5063 12.5534 3.40307 10.8435L3 4.16666" stroke="#6B6671" stroke-linecap="round"/>
+                        <path d="M2 4.16668H14M10.7038 4.16668L10.2487 3.22783C9.9464 2.60418 9.7952 2.29236 9.53447 2.09788C9.47667 2.05474 9.4154 2.01637 9.35133 1.98314C9.0626 1.83334 8.71607 1.83334 8.023 1.83334C7.31253 1.83334 6.95733 1.83334 6.66379 1.98942C6.59873 2.02402 6.53665 2.06394 6.47819 2.10879C6.21443 2.31114 6.06709 2.63438 5.77241 3.28085L5.36861 4.16668" stroke="#6B6671" stroke-linecap="round"/>
+                        <path d="M6.33337 11.5V7.5" stroke="#6B6671" stroke-linecap="round"/>
+                        <path d="M9.66663 11.5V7.5" stroke="#6B6671" stroke-linecap="round"/>
+                        </svg>
+                </div>
+                <div class="item-list">
+                    <div class="item-list-info">
+                        <input type="checkbox" name="item" id="item-check">
+                        <p>Pão de forma</p>
+                    </div>
+                    <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13 4.16666L12.5869 10.8501C12.4813 12.5576 12.4285 13.4114 12.0005 14.0253C11.7889 14.3287 11.5165 14.5849 11.2005 14.7773C10.5614 15.1667 9.706 15.1667 7.99513 15.1667C6.28208 15.1667 5.42553 15.1667 4.78603 14.7766C4.46987 14.5838 4.19733 14.3272 3.98579 14.0232C3.55792 13.4084 3.5063 12.5534 3.40307 10.8435L3 4.16666" stroke="#6B6671" stroke-linecap="round"/>
+                        <path d="M2 4.16668H14M10.7038 4.16668L10.2487 3.22783C9.9464 2.60418 9.7952 2.29236 9.53447 2.09788C9.47667 2.05474 9.4154 2.01637 9.35133 1.98314C9.0626 1.83334 8.71607 1.83334 8.023 1.83334C7.31253 1.83334 6.95733 1.83334 6.66379 1.98942C6.59873 2.02402 6.53665 2.06394 6.47819 2.10879C6.21443 2.31114 6.06709 2.63438 5.77241 3.28085L5.36861 4.16668" stroke="#6B6671" stroke-linecap="round"/>
+                        <path d="M6.33337 11.5V7.5" stroke="#6B6671" stroke-linecap="round"/>
+                        <path d="M9.66663 11.5V7.5" stroke="#6B6671" stroke-linecap="round"/>
+                        </svg>
+                </div>
+            </div>
+        </section>
+        <div class="alert"></div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
